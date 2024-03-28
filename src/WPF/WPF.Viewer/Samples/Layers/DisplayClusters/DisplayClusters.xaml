@@ -4,7 +4,7 @@
              xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013">
     <Grid>
         <esri:MapView x:Name="MyMapView" GeoViewTapped="MyMapView_GeoViewTapped" />
-        <Border Width="auto" Style="{StaticResource BorderStyle}">
+        <Border Width="auto" >
             <CheckBox Checked="CheckBox_CheckChanged"
                       Content="Feature clustering"
                       IsChecked="True"
